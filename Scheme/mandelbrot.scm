@@ -1,0 +1,6 @@
+(define (complex a b)
+	(cons a b))
+(define (real x)
+	(car x))
+(define (imag x)
+	(cdr x))
